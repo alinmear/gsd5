@@ -37,6 +37,13 @@ Release:
 * Convert "normal" tiddlers to action-type tiddlers
 * Show integration of gsd5 into my tiddlywiki/workflow
 
+## Quick Capturing
+
+* First, thanks to the project https://nicolas.petton.fr/tw/project-manager.html for the great idea
+* I adapted this for gsd5
+* The styles needs to be adapted
+* The default shortcut is alt+c
+
 ## Description
 
 A Getting-Things-Done tool for the TiddlyWiki5 environment.
