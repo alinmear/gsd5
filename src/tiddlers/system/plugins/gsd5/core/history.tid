@@ -1,0 +1,42 @@
+created: 20200603185619889
+modified: 20200603190627155
+tags: 
+title: $:/plugins/gsd5/core/history
+type: text/vnd.tiddlywiki
+
+! v0.6-beta
+
+Added Features
+
+* Correct names for tiddlers. Some tiddlers were going out with incorrect names. #57
+* Renamed the $action widget to better identify its purpose. #59
+* Created a Dashboard to find Contacts easier. #60
+* New GSD5 tiddlers can be created on-the-fly in certain contexts. #58 See Notes
+* Show the gsd_type of the current GSD5 tiddler. #61
+* BlueBox toggle button improved. #52
+* Completed Actions are now shown in their Project's tiddler. #50
+* New Actions created in Projects respect user's show/hide preference. #42
+* Projects and Actions can be hidden or shown upon creation independently. #41
+* No Next Actions should no longer show Completed Projects. #56
+* Completed Actions display completed date in lists. #51
+* Completed lists are sorted by date. #51
+* Some UI icons have been lightened. #51
+
+Corrected Bugs
+
+* gsd5-list macro should show dates in correct order. #46
+
+Notes
+
+The change from v0.5-beta to v0.6-beta resulted in changes to how prerequisite Actions are tracked. The change involves the renaming of the gsd_prereq field to gsd_action. This change break tiddler dependency chains unless corrected with the provided tool.
+
+Prerequisite Conversion Tool
+
+Issue #58 is completed with a workaround. Currently, there is a hardcoded 0.5 second delay so widgets have time to refresh. The unknown bug appears to be up stream in TiddlyWiki5 itself and Jeremy knows about it at this time. No is no definite timeline for resolution of this issue.
+Thanks
+
+Special thanks to the following individuals for their contributions:
+
+* @simonbaird
+
+Thanks to all who have contributed with bugs, questions and suggestions!

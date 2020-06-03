@@ -1,0 +1,6 @@
+created: 20200602205859513
+modified: 20200602205859536
+title: $:/config/codemirror/autoCloseTags
+type: bool
+
+true
