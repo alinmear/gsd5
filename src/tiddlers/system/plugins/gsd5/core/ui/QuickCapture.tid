@@ -1,0 +1,15 @@
+created: 20200603204725061
+modified: 20200603214828104
+tags: 
+title: $:/plugins/gsd5/core/ui/QuickCapture
+type: text/vnd.tiddlywiki
+
+!! {{ $:/plugins/gsd5/core/images/task}} Quick add New Action
+
+<$keyboard key="enter">
+  <$action-setfield $tiddler={{$:/state/QuickCapture!!item_name}} gsd_type="action" gsd_complete="false" gsd_contact="" gsd_project="" gsd_realm="" gsd_status="future"/>
+	<$action-setfield $tiddler="$:/state/QuickCapture" item_name=""/>
+  <$action-sendmessage $message="tm-close-tiddler"/>
+  <$edit-text class="pm-input input-large" tiddler="$:/state/QuickCapture" field="item_name" placeholder="Add to inbox..." focus="true"/> 
+  <label class="pm-label">Press ⏎ to capture</label>
+</$keyboard>

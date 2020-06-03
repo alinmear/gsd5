@@ -1,0 +1,10 @@
+created: 20200603211753872
+key: ((gsd5-quick-capture))
+modified: 20200603220348892
+tags: $:/tags/KeyboardShortcut
+title: $:/plugins/gsd5/core/shortcuts/QuickCapture
+type: text/vnd.tiddlywiki
+
+<$navigator story="$:/StoryList" history="$:/HistoryList">
+  <$action-navigate $to="$:/plugins/gsd5/core/ui/QuickCapture"/>
+</$navigator>
